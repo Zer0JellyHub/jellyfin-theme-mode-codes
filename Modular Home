@@ -1,3 +1,14 @@
+### 🗂️ Modular Home
+
+This folder contains additional CSS tweaks for the modular home screen layout.
+
+To hide the **Modular Home** entry from the sidebar navigation, follow these steps:
+
+**How to apply the JavaScript:**
+1. Go to your Jellyfin **Admin Dashboard** in your web browser
+2. Navigate to **Dashboard → General → Custom JavaScript**
+3. Paste the following code:
+```js
 document.addEventListener('viewshow', function() {
     setTimeout(function() {
         const links = document.querySelectorAll('a.lnkMenuOption, .navMenuOption');
@@ -8,3 +19,11 @@ document.addEventListener('viewshow', function() {
         });
     }, 500);
 });
+```
+
+4. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
+
+**Then apply the additional tweaks from this folder:**
+1. Navigate to **Dashboard → General → Custom CSS**
+2. Copy & paste the CSS from the `Modular Home` folder
+3. Click **Save** and hard refresh your browser again
