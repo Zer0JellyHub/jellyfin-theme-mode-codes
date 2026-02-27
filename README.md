@@ -28,11 +28,17 @@ A collection of CSS and JavaScript customizations to completely transform your J
 
 ## 🚀 How to use
 
-1. Go to your Jellyfin **Admin Dashboard**
-2. Navigate to **Dashboard → General → Custom CSS**
+Each folder contains its own instructions — **open the folder you want and follow the guide inside** to find out where and how to apply the code.
+
+In general, most tweaks follow this pattern:
+
+1. Go to your Jellyfin **Admin Dashboard** in your web browser
+2. Navigate to **Dashboard → General → Custom CSS** for CSS tweaks
 3. Copy & paste the CSS code from the folder you want
 4. For JavaScript tweaks, go to **Dashboard → General → Custom JavaScript**
-5. Save and **hard refresh** your browser (Ctrl+Shift+R / Cmd+Shift+R)
+5. Click **Save** and hard refresh your browser (Ctrl+Shift+R / Cmd+Shift+R)
+
+> ⚠️ Some folders require additional plugins or scripts to be installed first — make sure to read the instructions inside each folder carefully before applying any code!
 
 > ⚠️ You can still access settings by clicking on your **profile picture** in the top right corner.
 
