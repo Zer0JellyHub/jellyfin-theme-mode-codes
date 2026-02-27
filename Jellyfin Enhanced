@@ -1,1 +1,32 @@
-https://github.com/n00bcodr/Jellyfin-Enhanced
+### ✨ Jellyfin Enhanced
+
+This folder contains additional CSS tweaks that work together with the **Jellyfin Enhanced** plugin by n00bcodr.
+
+> ⚠️ **You need to install the Jellyfin Enhanced plugin first before using these tweaks!**
+> 👉 [https://github.com/n00bcodr/Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced)
+
+The Jellyfin Enhanced plugin is one of the most popular Jellyfin plugins (976 ⭐) and adds tons of features including:
+- 🎬 Advanced keyboard shortcuts & smart bookmarks
+- 🏷️ Quality tags (4K, HDR, Atmos) on posters
+- 🌍 Language flags for audio tracks
+- ⭐ TMDB & Rotten Tomatoes ratings at a glance
+- 🎨 Custom branding, themes & CSS options
+- 🔍 Jellyseerr integration for media requests
+- And much more!
+
+**How to install Jellyfin Enhanced:**
+1. Go to your Jellyfin **Admin Dashboard** in your web browser
+2. Navigate to **Dashboard → Plugins → Repositories**
+3. Click ➕ and add this repository URL:
+```
+   https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json
+```
+4. Go to the **Catalog** tab, find **Jellyfin Enhanced** and click **Install**
+5. Restart your Jellyfin server
+
+**Then apply the tweaks from this folder:**
+1. Navigate to **Dashboard → General → Custom CSS**
+2. Copy & paste the CSS from the `Jellyfin Enhanced` folder
+3. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
+
+> ⚠️ Requires **Jellyfin 10.11+**
