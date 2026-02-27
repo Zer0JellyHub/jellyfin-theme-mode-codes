@@ -27,7 +27,4 @@ document.addEventListener('viewshow', function() {
 
 4. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
 
-**Then apply the tweaks from this folder:**
-1. Navigate to **Dashboard → General → Custom CSS**
-2. Copy & paste the CSS from the `Icon Home Watchlist` folder
-3. Click **Save** and hard refresh your browser again
+
