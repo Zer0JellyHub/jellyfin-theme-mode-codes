@@ -1,12 +1,24 @@
-@import
-url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/kaleidochromic_preset.css');
-@import
-url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent.css');
-@import
-url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_minimalistic.css');
-@import
-url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/progress/floating.css');
-@import
-url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/glassy.css');
-@import
-url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/episodelist/episodes_compactlist.css');
+### 🎨 Branding
+
+This folder contains additional CSS tweaks that build on top of the **Ultrachromic** theme by CTalvio.
+
+> ⚠️ **You need to apply the Ultrachromic base theme first before using these tweaks!**
+
+**How to apply the base theme:**
+1. Go to your Jellyfin **Admin Dashboard** in your web browser
+2. Navigate to **Dashboard → General → Branding**
+3. Paste the following code into the **Custom CSS** field:
+```css
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/kaleidochromic_preset.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_minimalistic.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/progress/floating.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/glassy.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/episodelist/episodes_compactlist.css');
+```
+
+4. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
+
+**Then apply the tweaks from this folder:**
+1. Add the CSS from the `Branding` folder below the imports above
+2. Click **Save** and hard refresh your browser again
