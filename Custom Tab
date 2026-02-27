@@ -22,7 +22,4 @@ The Custom Tabs plugin lets you add your own tabs to the top navigation bar in J
 6. Restart your Jellyfin server
 7. Go to **Dashboard → My Plugins → Custom Tabs** to configure your tabs
 
-**Then apply the tweaks from this folder:**
-1. Navigate to **Dashboard → General → Custom CSS**
-2. Copy & paste the CSS from the `Custom Tab` folder
-3. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
+
