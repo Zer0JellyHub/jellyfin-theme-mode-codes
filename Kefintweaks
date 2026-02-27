@@ -1,4 +1,20 @@
+### 🔧 Kefintweaks
+
+This folder contains tweaks powered by the **KefinTweaks** script by ranaldsgift.
+
+> ⚠️ **You need to inject the KefinTweaks script into Jellyfin first before using these tweaks!**
+> 👉 [https://github.com/ranaldsgift/KefinTweaks](https://github.com/ranaldsgift/KefinTweaks)
+
+**How to apply:**
+1. Go to your Jellyfin **Admin Dashboard** in your web browser
+2. Navigate to **Dashboard → General → Custom JavaScript**
+3. Paste the following code:
+```js
 const script = document.createElement("script");
 script.src = `https://cdn.jsdelivr.net/gh/ranaldsgift/KefinTweaks@latest/kefinTweaks-plugin.js`;
 script.async = true;
 document.head.appendChild(script);
+```
+
+4. Click **Save** and hard refresh your browser (Ctrl+Shift+R / Cmd+Shift+R)
+5. Then paste the additional tweaks from the `Kefintweaks` folder into **Custom CSS** or **Custom JavaScript**
