@@ -41,6 +41,4 @@ To activate the icons for the home tab bar, paste the following code into **Dash
 
 Click **Save** and hard refresh your browser (Ctrl+Shift+R).
 
-**Then apply the additional tweaks from this folder:**
-1. Add the CSS from the `Home screen` folder below the code above
-2. Click **Save** and hard refresh your browser again
+
