@@ -1,3 +1,9 @@
+### ⚙️ Remove Setting Button
+
+This folder contains additional CSS tweaks to hide the settings button.
+
+To use these tweaks, paste the following code into **Dashboard → General → Custom JavaScript**:
+```js
 document.addEventListener('viewshow', function() {
     setTimeout(function() {
         const menuItems = document.querySelectorAll('.navMenuOption');
@@ -8,3 +14,4 @@ document.addEventListener('viewshow', function() {
         });
     }, 500);
 });
+```
