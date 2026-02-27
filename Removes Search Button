@@ -1,4 +1,11 @@
+### 🔍 Removes Search Button
+
+This folder contains additional CSS tweaks to hide the search button.
+
+To use these tweaks, paste the following code into **Dashboard → General → Custom JavaScript**:
+```js
 document.addEventListener('viewshow', function() {
     const searchBtn = document.querySelector('.headerSearchButton');
     if (searchBtn) searchBtn.style.setProperty('display', 'none', 'important');
 });
+```
